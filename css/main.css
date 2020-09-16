@@ -1446,7 +1446,7 @@ textarea {
     padding: 0 16px;
     padding-bottom: 0px; }
   .img-avatar-alpha img {
-    width: 100%;
+    width: 95%;
     height: auto;
     position: relative;
     border-radius: 800px;
@@ -1457,7 +1457,7 @@ textarea {
   .img-avatar-alpha:hover img {
     -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
             box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
-    border: 8px solid #ffffff; }
+    border: 5px solid #ffffff; }
   .img-avatar-alpha .legend {
     margin-top: 0px; }
 
