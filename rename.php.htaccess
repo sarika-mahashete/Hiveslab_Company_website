@@ -1,0 +1,12 @@
+#RewriteCond %{HTTP_HOST} hiveslab\.com [NC]
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ http://www.hiveslab.com/$1 [R,L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#code to avoid SEO Domain duplication updated on 15/05
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^hiveslab.com [NC]
+RewriteRule ^(.*)$ http://www.hiveslab.com/$1 [L,R=301]

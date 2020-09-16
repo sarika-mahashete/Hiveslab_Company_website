@@ -1,0 +1,49 @@
+.myClass
+{
+	display: inline-block;
+	padding: 15px 25px;
+	font-size:14px;
+	cursor:pointer;
+	text-align:center;
+	text-decoration:none;
+	outline:none;
+	color:#fff;
+	background-color:#4CAF50;
+	border:none;
+	border-radius:15px;
+	box-shadow:0 9px #999;
+}
+
+.myClass:hover
+{
+	background-color:#3e8e41;	
+}
+
+.myClass:active
+ {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.myText {
+    border: 3px solid gray;
+    width: 368px;
+    height: 33px;
+   /*  color: silver; */
+    font-size: 22px;
+    padding-left: 10px;
+    border:2px solid red;
+    border-radius:7px;
+    font-size:20px;
+    padding:5px; 
+    
+}
+
+.myText:focus{
+    outline:none;
+    border-color:blue;
+	color:black;
+    box-shadow:0 0 10px blue;
+}
+
